@@ -1,5 +1,5 @@
 
-public class Main {
+public class One {
     public static int One(int[] a) {
         int min = a[0]; //initializing min
 
