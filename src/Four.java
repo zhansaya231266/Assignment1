@@ -3,7 +3,7 @@ public class Four {
         if(n==0){ // checking if n is 0. 0!=1
             return 1;
         } else{
-            return n*Four(n-1); //returning value of factorial
+            return n * Four(n-1); //returning value of factorial
         }
     }
 
