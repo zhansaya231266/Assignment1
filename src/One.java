@@ -1,6 +1,6 @@
 
 public class One {
-    public static int One(int[] a) {
+    public static int One(int n, int[] a) {
         int min = a[0]; //initializing min
 
         for(int i=1; i<a.length; i++){ //iterating from 2 element
@@ -14,7 +14,7 @@ public class One {
     public static void main(String[] args){
         int n = 5;
         int[] a = {10, 1, 32, 3, 45};
-        int min = One(a);
+        int min = One(n, a);
         System.out.println("min:" + min);  //print the result
     }
 }
