@@ -5,8 +5,9 @@ public class New {
         int i = 1;
         while (i < index) {
             count++;
+            index = soz.indexOf(soz, index++);
         }
-        return New(soz, bilmim);
+        return count;
     }
 
     public static void main(String[] args) {
